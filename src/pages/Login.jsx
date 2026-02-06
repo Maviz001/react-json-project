@@ -28,36 +28,9 @@ export default function Login() {
  };
 
  return (
-//     <div classNameName="container">
-//   <div classNameName="login-form">
-//    <h2 classNameName="mb-4 text-center">Lawyer Case Management Login</h2>
 
-//    <form onSubmit={handleLogin}>
-//     <input
-//      type="email"
-//      classNameName="form-control mb-3"
-//      placeholder="Email"
-//      value={email}
-//      onChange={(e) => setEmail(e.target.value)}
-//      required
-//     />
-
-//     <input
-//      type="password"
-//      classNameName="form-control mb-3"
-//      placeholder="Password"
-//      value={password}
-//      onChange={(e) => setPassword(e.target.value)}
-//      required
-//     />
-
-//     <button classNameName="btn btn-primary w-100">Login</button>
-//    </form>
-//   </div>
-  
-//   </div>
-<section classNameName="login-section">
-    <div classNameName="container">
+<section className="login-section">
+    <div className="container">
     <div className="login-container">
         <div className="login-card">
             <div className="brand-section">
@@ -71,7 +44,7 @@ export default function Login() {
                 <label>Email Address</label>
                 <input
                     type="email"
-                    classNameName="form-control mb-3"
+                    className="form-control mb-3"
                     placeholder="Email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -83,7 +56,7 @@ export default function Login() {
                 <label>Password</label>
                 <input
                         type="password"
-                        classNameName="form-control mb-3"
+                        className="form-control mb-3"
                         placeholder="Password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
