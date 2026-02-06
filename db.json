@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "umermb@lawyer.com",
+      "password": "123456",
+      "name": "Muhammad Umer"
+    },
+    {
+      "id": "2",
+      "email": "admin@admin.com",
+      "password": "123456",
+      "name": "Administrator"
+    }
+  ],
+  "cases": [
+    {
+      "id": "6ffe",
+      "title": "test",
+      "client": "test",
+      "lawyer": "test",
+      "type": "test",
+      "date": "2026-02-12",
+      "status": "Open"
+    },
+    {
+      "id": "46e4",
+      "title": "tst2",
+      "client": "test2",
+      "lawyer": "test2",
+      "type": "test2",
+      "date": "2026-02-07",
+      "status": "Open"
+    },
+    {
+      "id": "07b9",
+      "title": "murder",
+      "client": "Maviz",
+      "lawyer": "Umer",
+      "type": "ind",
+      "date": "2026-02-10",
+      "status": "Open"
+    },
+    {
+      "id": "9dbc",
+      "title": "criminal",
+      "client": "Tayyab",
+      "lawyer": "test2",
+      "type": "test",
+      "date": "2026-02-18",
+      "status": "Closed"
+    },
+    {
+      "id": "3fc6",
+      "title": "test",
+      "client": "Bilal",
+      "lawyer": "Maviz",
+      "type": "criminal",
+      "date": "2026-02-13",
+      "status": "Open"
+    }
+  ]
+}
